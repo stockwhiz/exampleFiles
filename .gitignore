@@ -1,0 +1,13 @@
+#Ignore the build file
+_output/
+#ignore the cache
+.cache/
+#pythonnotebookcache
+.ipynb_checkpoints/
+
+#ignore the .whls 
+## To be changed
+*.whl
+
+#the database created from jupyterlite
+*.db
