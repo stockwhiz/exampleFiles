@@ -1,8 +1,0 @@
-{
-"@jupyterlab/apputils-extension:themes":{
-      "theme": "theme01"
-  },
-      "enableMemoryStorage": true,
-      "contentsStorageDrivers":["memoryStorageDriver"],
-      "settingsStorageDrivers":["memoryStorageDriver"]
-}
