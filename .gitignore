@@ -11,3 +11,6 @@ _output/
 
 #the database created from jupyterlite
 *.db
+
+#Ignore the vs folder
+*.vs
