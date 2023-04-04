@@ -8,6 +8,7 @@ _output/
 #ignore the .whls 
 ## To be changed
 *.whl
+*.tgz
 
 #the database created from jupyterlite
 *.db
