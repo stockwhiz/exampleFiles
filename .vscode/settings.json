@@ -1,3 +1,4 @@
 {
-    "liveServer.settings.multiRootWorkspaceName": "jup_02"
+  "liveServer.settings.multiRootWorkspaceName": "jup_02",
+  "liveServer.settings.root": "/_output"
 }
