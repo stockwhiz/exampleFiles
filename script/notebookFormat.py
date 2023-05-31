@@ -25,4 +25,4 @@ for filename in os.listdir(directory):
             # End of looping through cells
             # Begin writing the file
             with open(os.path.join(directory, filename), 'w', encoding='utf-8') as file:
-                json.dump(data,file)
+                json.dump(data,file,indent=2)
