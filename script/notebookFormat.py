@@ -23,4 +23,6 @@ for filename in os.listdir(directory):
                         # print(result)
                         cell['source'] = result
             # End of looping through cells
-            json.dump(data,file)
+            # Begin writing the file
+            with open(os.path.join(directory, filename), 'w', encoding='utf-8') as file:
+                json.dump(data,file)
