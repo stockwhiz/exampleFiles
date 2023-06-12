@@ -6,6 +6,10 @@
     },
     "enableMemoryStorage": true,
     "contentsStorageDrivers": ["memoryStorageDriver"],
-    "settingsStorageDrivers": ["memoryStorageDriver"]
+    "settingsStorageDrivers": ["memoryStorageDriver"],
+    "disabledExtensions": [
+      "@jupyterlab/application-extension:logo",
+      "@jupyterlab/apputils-extension:splash"
+    ]
   }
 }
